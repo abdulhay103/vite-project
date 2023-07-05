@@ -1,9 +1,10 @@
 
 const Hero = () => {
+    let marks = 95;
     return (
         <div>
-            <h1>Hello form Hero section!</h1>
-            <button style={{marginBottom:"15px"}} onClick={()=>{alert("hello")}} type="submit">Check Alert</button>
+            <h1>Marks Checker</h1>
+            {marks>80?<h2>Briliant Result!</h2>:<h2>Avarage Result.</h2>}
         </div>
     );
 };
