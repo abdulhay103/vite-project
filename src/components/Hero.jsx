@@ -1,6 +1,6 @@
 // let cities = ["Dhaka", "Landon", "Ohio", "Shikago", "Korachi"];
 const Hero = () => {
-    let status = false;
+    let status = true;
     return (
         <div className="px-10">
             <h1 className='text-xl font-bold text-red-700 text-center'>loop In jsx:</h1>
