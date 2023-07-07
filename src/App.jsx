@@ -1,4 +1,3 @@
-import ContactForm from "./components/ContactForm";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -7,7 +6,6 @@ const App = () => {
     <div>
       <Header/>
       <Hero/>
-      <ContactForm/>
     </div>
   );
 };
