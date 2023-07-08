@@ -1,9 +1,13 @@
-
 const HeroText = (props) => {
+    let datas = props.datas;
 
     return (
         <div>
-           <h1>{props.firstProps}</h1>
+            <ul>
+                {datas.map((data, index) => {
+                    return <li key={index}>{data}</li>;
+                })}
+            </ul>
         </div>
     );
 };
