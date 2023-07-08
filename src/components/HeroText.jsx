@@ -1,12 +1,9 @@
-const HeroText = (props) => {
-    let datas = props.datas;
+const HeroText = ({myFun}) => {
 
     return (
         <div>
             <ul>
-                {datas.map((data, index) => {
-                    return <li key={index}>{data}</li>;
-                })}
+                {myFun()}
             </ul>
         </div>
     );
